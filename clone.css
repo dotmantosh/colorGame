@@ -1,0 +1,200 @@
+
+ body{
+    background: #135031;
+    overflow: hidden;
+}  
+
+.section-logic{
+    padding: 30px 0;
+    bottom: 20px;
+    background: #145734;
+}
+
+.logic-div{
+    margin-left: 60px; 
+}
+
+
+.pa-divs{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+
+.color-divs{
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+    line-height: 110px;
+    display: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-size: 75px;
+    text-shadow: -4px 4px 3px rgba(0, 0, 0, 0.4),
+                 -4px -4px 13px rgba(0, 0, 0, 0.1);
+                 
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1),
+                -4px -4px 3px rgba(0, 0, 0, 0.1);
+                 
+                 
+}
+
+.pa-clockdiv{
+    margin-left: 20px;
+    margin-top: 15px
+}
+
+.clockdiv{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #08341B;
+    opacity: 0.9;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+table{
+    width: inherit;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+    /* background: rgb(5, 56, 27) */
+     
+}
+
+table tr div{
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+
+.section-forecast .forecast-head{
+    background: #24A259;
+    color: white;
+    border-radius: 5px;
+}
+
+.div-numbers{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: rgb(209, 32, 35);
+    text-align: center;
+    line-height: 35px;
+    margin-right: 30px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1);
+                 
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1),
+                -4px -4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.div-numbers:last-of-type{
+    margin-right: 0;
+}
+
+.div-colours{
+    width: 18px;
+    height: 30px;
+    border-radius: 2px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1);
+                 
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1),
+                -4px -4px 3px rgba(0, 0, 0, 0.1);
+    
+}
+
+.div-colours:first-child{
+    background: #CA2C2B;
+}
+.div-colours:nth-child(2){
+    background: #E6A70C;
+}
+.div-colours:nth-child(3){
+    background: #2D78C9;
+}
+.div-colours:last-child{
+    background: #000000;
+    border: white solid 2px;
+    width: 23px;
+    height: 30px;
+}
+
+.div-w-colour{
+    background: #E6A70C;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1);
+                 
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1),
+                -4px -4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pa-div-numbers{
+    margin-left: 30px;
+}
+
+th{
+    font-weight: 500;
+}
+th.id{
+    padding-left: 5px;
+}
+th.numbers{
+    padding-left: 30px;
+}
+th.w-colour{
+    padding-left: 90px;
+}
+.numbers{
+    width: 440px;
+}
+
+.div-w-colour{
+    margin-left: 116px
+}
+
+table tr:nth-child(odd){
+    background: #286043;
+}
+
+input{
+    border-radius: 4px;
+}
+
+#feedback{
+    color: rgb(223, 35, 35);
+}
+.feedbackstake{
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+
+label{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
